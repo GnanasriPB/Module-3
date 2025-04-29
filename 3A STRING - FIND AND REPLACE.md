@@ -1,9 +1,9 @@
 # Exp.No:3a
-## STRING - FIND AND REPLACE
+ STRING - FIND AND REPLACE
 
 ---
 
-### AIM  
+AIM  
 To write a Python function to accept a string, identify a word to be replaced, and replace it with a new word provided by the user.
 
 ---
@@ -20,11 +20,23 @@ To write a Python function to accept a string, identify a word to be replaced, a
 
 ---
 
-### PROGRAM
+ PROGRAM
+ 
+def replacestr(s,old_word):
 
-```
-```
+    new_word=input()
+    
+    print(f"The old string is {s}")
+    
+    print(f"the new string is {s.replace(old_word,new_word)}")
+ 
 
-### OUTPUT
+ OUTPUT
 
-### RESULT
+ ![image](https://github.com/user-attachments/assets/63a5cc1f-61fd-4796-bbf0-6ab086218e8b)
+
+
+ RESULT
+
+  Thus the Python function to accept a string, identify a word to be replaced, and replace it with a new word provided by the user was implemented and executed successfully.
+
